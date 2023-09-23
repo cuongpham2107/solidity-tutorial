@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12_sol8.sol": "Bai8"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12_sol8.sol": {
+			"keccak256": "0x8b89022b3c0e4b188a148e0265028663050a009b7a315e99c26e22868164ce4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f16026e43b8acc623ac7b443e33545bcdd726b909e902e97e89cb7eee73f5c6b",
+				"dweb:/ipfs/QmXBtGQJ7atPHu5YUt59RnZ2LyNVjac7CZpfPXiEBvdBXS"
+			]
+		}
+	},
+	"version": 1
+}

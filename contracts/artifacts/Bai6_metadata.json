@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "TEST",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "myArgs",
+						"type": "uint256[]"
+					}
+				],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_bai6.sol": "Bai6"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_bai6.sol": {
+			"keccak256": "0x11e7593d4b533c97ae2e33f5d47297882e5bf1345ee7176d3d96f372fde43e8f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1c02307d9c1eaffc711dc228d58ab70bcf307f98aebd224d4110a339f1d074c3",
+				"dweb:/ipfs/QmX4HAQU8Wbh5ncu15kZaYmoGfAY9N66BTEhugefzyLV9o"
+			]
+		}
+	},
+	"version": 1
+}

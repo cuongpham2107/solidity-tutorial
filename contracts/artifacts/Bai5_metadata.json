@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DoSomeThing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_bai5.sol": "Bai5"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_bai5.sol": {
+			"keccak256": "0x3a0002f62799c16276a8aa1538f5fc996f9906b791c18df678c4c4039e4ee236",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8f9fa6113572c70724dc4274fa99e0a1246604bb583c7bb3e4e92f8e5e7bc09",
+				"dweb:/ipfs/Qmek9QZtWsT9DsaTLCDg9uSRzE3phAMyPcKfb9HGY8pAEq"
+			]
+		}
+	},
+	"version": 1
+}

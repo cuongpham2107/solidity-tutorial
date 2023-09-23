@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit1",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "BuySth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TEST",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15_bai11.sol": "Bai11"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/13_bai9.sol": {
+			"keccak256": "0x11e6d3331ece8f295ed842c3a2cdd52239b987066cf614865bf3b216cf79b533",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff0a10d0d17e2c43bb2652f139fab4498f5c0e10193e49a1e9cfdace020df8ee",
+				"dweb:/ipfs/QmZYFEpQqYX6wZZc6EAxg4DzDFD5CxPY2t8x7UL5z8Fvoa"
+			]
+		},
+		"contracts/14_bai10.sol": {
+			"keccak256": "0x768a42e56a6c4ec71ba1ac3feb5371af78bcd077df661c9968924fc2f817d0a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d0e2a50f581c70f9b1186e563c6ea84d0d136d8d24aab011834f4409253f8d1",
+				"dweb:/ipfs/QmQPyYPnr6wKZSppFwY7LV5cTjgQNtfXymXTKtybRiuJeu"
+			]
+		},
+		"contracts/15_bai11.sol": {
+			"keccak256": "0x5aa0cd132fba80a4865a905e68547d0e7f775f24e00d2db4970b0417216e3239",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b398e3f5cb91c4b3dbfc2a648c7c2403903921ea9c103798f61f8cb13d9d981",
+				"dweb:/ipfs/QmVxmjSSb3T4A9qJnuY8uw28UC7pCEsZR2CDK1FURKfxr7"
+			]
+		}
+	},
+	"version": 1
+}
